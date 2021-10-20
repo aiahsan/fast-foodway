@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "30797626430",
+    "firebase_url": "https://foodway-50e21.firebaseio.com",
+    "project_id": "foodway-50e21",
+    "storage_bucket": "foodway-50e21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30797626430:android:e95017c8aad0537fdee56f",
+        "android_client_info": {
+          "package_name": "com.foodway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30797626430-6rg95dadsmdhs1t6kt7801vpeu5n32kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUlbYOzAY2miDmZKxf5umudSAjXDN5V0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30797626430-6rg95dadsmdhs1t6kt7801vpeu5n32kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

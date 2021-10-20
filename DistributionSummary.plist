@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoodApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>477318C2CB2AB9A6E4EA8A4F81C266BE361AB04E</string>
+				<key>dateExpires</key>
+				<string>31/07/2021</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>22US2M76T7.com.foodway</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>22US2M76T7</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>FoodApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>2000151a-c3c2-4ad2-9414-c1131320e967</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.foodway</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>22US2M76T7</string>
+				<key>name</key>
+				<string>Muhammad zubair</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

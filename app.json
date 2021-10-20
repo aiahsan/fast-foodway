@@ -1,0 +1,17 @@
+{
+  "name": "FoodApp",
+  "displayName": "Food App",
+  "expo": {
+    "name": "FoodApp",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

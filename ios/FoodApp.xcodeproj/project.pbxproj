@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C5797079664E59864FD66E /* Sunflower-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B443698A6654B19A4214F8F /* Sunflower-Light.ttf */; };
+		04636572249F90FE00AB4E77 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04636571249F90FE00AB4E77 /* File.swift */; };
+		048B282324E04913006D3C31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048B282224E04911006D3C31 /* GoogleService-Info.plist */; };
+		0731D3B824204D62009CAE85 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0731D3B524204D62009CAE85 /* Expo.plist */; };
+		117AEF6667F348F1B884B4D2 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E62729E1622749BBADAB8BDA /* Roboto-Black.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		17E7AC91833A4F1A94514479 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0BC2E250C4A46349A64CFA2 /* RobotoSlab-Light.ttf */; };
+		1FB54FC3E9BB4BA8A016338F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE045CDC3A9F4AE2BF7BF868 /* Ionicons.ttf */; };
+		215CD1F9528343BF9889A700 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF696C4E1848DF86CF0CE5 /* Octicons.ttf */; };
+		22AEB33068224953A640A16C /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C6F5C13A06143988EB0AD45 /* Raleway-Regular.ttf */; };
+		25BB275C1E524AD189F12D18 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D87C3E04E87E41BC8B66ABD1 /* Lato-Light.ttf */; };
+		26AD3EFA49A043C5BFAFA902 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EB64E0613A45F88C6ACFF0 /* FontAwesome.ttf */; };
+		2E882E2EBEC04952949FF7E2 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADCD831E20724831BCEB8BCE /* Raleway-Medium.ttf */; };
+		3BA2FB2D48BE4D3E82BEDB74 /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5F65BC86A474454BCB3E78D /* IBMPlexSans-Light.ttf */; };
+		3DE4DAD41476765101945408 /* libPods-FoodApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43FF9D506E70904424FA7E9 /* libPods-FoodApp.a */; };
+		4286B19A30A946348B96A35F /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 573AFB867EE4439FA89AB1AF /* FontAwesome5_Solid.ttf */; };
+		4EBF882840C14A9A8A750874 /* Sansita-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD090A6CB7914757A51D87C0 /* Sansita-Regular.ttf */; };
+		56413FF965BC4F49A8847695 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35A4DFB5695347C5A24E2D2D /* FontAwesome5_Brands.ttf */; };
+		57C9C0161FCE46A4AD529740 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BFEED45F0314164905FD9C2 /* Lato-Bold.ttf */; };
+		5B2F2960A30E4329A9E85181 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9BA60ABE8BF428DA0F55F1A /* Raleway-Black.ttf */; };
+		7C338C2E435E4E338F78A572 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53CF11E504742FBA40477CE /* RobotoSlab-Regular.ttf */; };
+		7E0C9B55857E49F79AA1A88F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A915DD12788B46259993514A /* Zocial.ttf */; };
+		7F8B138C442D4665B63EEDAE /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06EFF159E9E547D8A8DFB5D1 /* Feather.ttf */; };
+		80887FBB1DF44F6882B9385A /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55DDD5A975D84DEEB2E169A5 /* RobotoSlab-Bold.ttf */; };
+		8ACB930ED05C41BFBF3002DE /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 615D40CD910044389AD85D2D /* IBMPlexSans-SemiBold.ttf */; };
+		902D903E18FC4BE0BC301162 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E124997A4C2A490291A32177 /* OpenSans-Bold.ttf */; };
+		94E0E6B912914078AB468147 /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0AA2D749C3B4BD197392025 /* IBMPlexSans-Medium.ttf */; };
+		9714D4A77176490AA399946F /* Sunflower-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F274B26B844E31B0468BC6 /* Sunflower-Medium.ttf */; };
+		98664377AAD24D4DAA4A845A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0DA5B70D13E475BB3ADCF8B /* OpenSans-Light.ttf */; };
+		99EC63CFB4B549BBAF093D10 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ABB89D1E68496EB7D95742 /* SplashScreen.storyboard */; };
+		9AED594861A84364AEB2E4BA /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CC4EB207993491F95F10652 /* Foundation.ttf */; };
+		9D3584294D2049BD9BDF5049 /* Sansita-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 341EC4E668D146D1B66A8CF8 /* Sansita-Bold.ttf */; };
+		A1E64509F57549CCBDC5F2F1 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE307C40773E460B8F277C4E /* AntDesign.ttf */; };
+		B26E2B40391E4540A7312218 /* Mitr-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBCD18744C54EE1A4070AF8 /* Mitr-Light.ttf */; };
+		B62E1117C95146C1B5FBD3C4 /* Mitr-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CB1F8B3041D43809F83716A /* Mitr-Regular.ttf */; };
+		BB4AA7B769244520BF61BE34 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8A9BD52D5CA4D20AC6A4E18 /* Fontisto.ttf */; };
+		C3E8EF4FAE4648258C18D710 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D35C78B24B6402992B19F66 /* SimpleLineIcons.ttf */; };
+		C65DED633EC747178AC63B65 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3BED1DD37AC4BBE849106F0 /* OpenSans-Regular.ttf */; };
+		CA897DC451424703865360A8 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 974A662D8B2044A38C0742DD /* FontAwesome5_Regular.ttf */; };
+		CC47A628C5AC4C819DEC0242 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDC6CE9780F440748335502D /* MaterialIcons.ttf */; };
+		DFB6E9D91B87463297D516E7 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54CE8F7135E14F4F955E54AA /* Entypo.ttf */; };
+		E590B4D86A4848E7BEE6E683 /* Mitr-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50D1AF0E62574A1995FBE1C9 /* Mitr-Medium.ttf */; };
+		E66800215C63473E81F1F234 /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32F96E56A8994E7AA4530535 /* IBMPlexSans-Regular.ttf */; };
+		E6CAF280DA5C4EF8BED7318B /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B878C25A188243DFAF300FD0 /* MaterialCommunityIcons.ttf */; };
+		E775932A15264819953E20B2 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC8A5C56285E4AE89488E8D5 /* Roboto-Regular.ttf */; };
+		ED1B12A3C6E24C9C94458D7B /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEA32391D6234CEA89CECE2B /* EvilIcons.ttf */; };
+		EDEB6C478FDA44409B7EA598 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9EE851B41624F0DA8BF53A8 /* Lato-Regular.ttf */; };
+		EE50B5CF81EC4606927D0A4B /* Mitr-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22EB4D59ECFA4F01A74396A9 /* Mitr-Bold.ttf */; };
+		EE6DCF4353D14670AA1006D4 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBBD1292A9704118B488879C /* Raleway-Bold.ttf */; };
+		F83F596FFF9241D39A41458B /* Sunflower-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 871C87FEE4E44DFE9E68E8C4 /* Sunflower-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		04636570249F90FD00AB4E77 /* FoodApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		04636571249F90FE00AB4E77 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		048B282224E04911006D3C31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06EFF159E9E547D8A8DFB5D1 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../assets/fonts/Feather.ttf; sourceTree = "<group>"; };
+		0731D3B524204D62009CAE85 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Expo.plist; path = FoodApp/Supporting/Expo.plist; sourceTree = "<group>"; };
+		0B443698A6654B19A4214F8F /* Sunflower-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sunflower-Light.ttf"; path = "../assets/fonts/Sunflower-Light.ttf"; sourceTree = "<group>"; };
+		0D35C78B24B6402992B19F66 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* FoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FoodApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FoodApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FoodApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FoodApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FoodApp/main.m; sourceTree = "<group>"; };
+		1CB1F8B3041D43809F83716A /* Mitr-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Regular.ttf"; path = "../assets/fonts/Mitr-Regular.ttf"; sourceTree = "<group>"; };
+		1CC4EB207993491F95F10652 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
+		22EB4D59ECFA4F01A74396A9 /* Mitr-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Bold.ttf"; path = "../assets/fonts/Mitr-Bold.ttf"; sourceTree = "<group>"; };
+		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F96E56A8994E7AA4530535 /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Regular.ttf"; path = "../assets/fonts/IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		341EC4E668D146D1B66A8CF8 /* Sansita-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-Bold.ttf"; path = "../assets/fonts/Sansita-Bold.ttf"; sourceTree = "<group>"; };
+		35A4DFB5695347C5A24E2D2D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		3B47C5AFCB8BDE514B7D1AC6 /* Pods-FoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodApp/Pods-FoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4BFEED45F0314164905FD9C2 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		50D1AF0E62574A1995FBE1C9 /* Mitr-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Medium.ttf"; path = "../assets/fonts/Mitr-Medium.ttf"; sourceTree = "<group>"; };
+		54CE8F7135E14F4F955E54AA /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
+		55DDD5A975D84DEEB2E169A5 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Bold.ttf"; path = "../assets/fonts/RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		573AFB867EE4439FA89AB1AF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = ../assets/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		5B2D35F824D81928007AE106 /* FoodApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = FoodApp.entitlements; path = FoodApp/FoodApp.entitlements; sourceTree = "<group>"; };
+		615D40CD910044389AD85D2D /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-SemiBold.ttf"; path = "../assets/fonts/IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		871C87FEE4E44DFE9E68E8C4 /* Sunflower-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sunflower-Bold.ttf"; path = "../assets/fonts/Sunflower-Bold.ttf"; sourceTree = "<group>"; };
+		8AC623DBF3A3E2CB072F81F2 /* Pods-FoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodApp.release.xcconfig"; path = "Target Support Files/Pods-FoodApp/Pods-FoodApp.release.xcconfig"; sourceTree = "<group>"; };
+		974A662D8B2044A38C0742DD /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = ../assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		9C6F5C13A06143988EB0AD45 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		9FEF696C4E1848DF86CF0CE5 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = ../assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
+		A0AA2D749C3B4BD197392025 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Medium.ttf"; path = "../assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		A0DA5B70D13E475BB3ADCF8B /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		A915DD12788B46259993514A /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = ../assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
+		AD090A6CB7914757A51D87C0 /* Sansita-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sansita-Regular.ttf"; path = "../assets/fonts/Sansita-Regular.ttf"; sourceTree = "<group>"; };
+		ADCD831E20724831BCEB8BCE /* Raleway-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		B878C25A188243DFAF300FD0 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		B9BA60ABE8BF428DA0F55F1A /* Raleway-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; };
+		BC8A5C56285E4AE89488E8D5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		BE307C40773E460B8F277C4E /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
+		C0BC2E250C4A46349A64CFA2 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Light.ttf"; path = "../assets/fonts/RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		C3F274B26B844E31B0468BC6 /* Sunflower-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sunflower-Medium.ttf"; path = "../assets/fonts/Sunflower-Medium.ttf"; sourceTree = "<group>"; };
+		C53CF11E504742FBA40477CE /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoSlab-Regular.ttf"; path = "../assets/fonts/RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		C6EB64E0613A45F88C6ACFF0 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = ../assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		CDBCD18744C54EE1A4070AF8 /* Mitr-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mitr-Light.ttf"; path = "../assets/fonts/Mitr-Light.ttf"; sourceTree = "<group>"; };
+		CE045CDC3A9F4AE2BF7BF868 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		D43FF9D506E70904424FA7E9 /* libPods-FoodApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87C3E04E87E41BC8B66ABD1 /* Lato-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		DBBD1292A9704118B488879C /* Raleway-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		DDC6CE9780F440748335502D /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		E124997A4C2A490291A32177 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		E3ABB89D1E68496EB7D95742 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = FoodApp/SplashScreen.storyboard; sourceTree = "<group>"; };
+		E3BED1DD37AC4BBE849106F0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		E62729E1622749BBADAB8BDA /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EEA32391D6234CEA89CECE2B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		F5F65BC86A474454BCB3E78D /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Light.ttf"; path = "../assets/fonts/IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
+		F8A9BD52D5CA4D20AC6A4E18 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		F9EE851B41624F0DA8BF53A8 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE4DAD41476765101945408 /* libPods-FoodApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* FoodApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D35F824D81928007AE106 /* FoodApp.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				048B282224E04911006D3C31 /* GoogleService-Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				0731D3B524204D62009CAE85 /* Expo.plist */,
+				E3ABB89D1E68496EB7D95742 /* SplashScreen.storyboard */,
+			);
+			name = FoodApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				D43FF9D506E70904424FA7E9 /* libPods-FoodApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72E5486571395D51695C2A02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B47C5AFCB8BDE514B7D1AC6 /* Pods-FoodApp.debug.xcconfig */,
+				8AC623DBF3A3E2CB072F81F2 /* Pods-FoodApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				04636571249F90FE00AB4E77 /* File.swift */,
+				13B07FAE1A68108700A75B9A /* FoodApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				72E5486571395D51695C2A02 /* Pods */,
+				CB221275AF3E4D2BA5588C66 /* Resources */,
+				04636570249F90FD00AB4E77 /* FoodApp-Bridging-Header.h */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* FoodApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB221275AF3E4D2BA5588C66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE307C40773E460B8F277C4E /* AntDesign.ttf */,
+				54CE8F7135E14F4F955E54AA /* Entypo.ttf */,
+				EEA32391D6234CEA89CECE2B /* EvilIcons.ttf */,
+				06EFF159E9E547D8A8DFB5D1 /* Feather.ttf */,
+				C6EB64E0613A45F88C6ACFF0 /* FontAwesome.ttf */,
+				35A4DFB5695347C5A24E2D2D /* FontAwesome5_Brands.ttf */,
+				974A662D8B2044A38C0742DD /* FontAwesome5_Regular.ttf */,
+				573AFB867EE4439FA89AB1AF /* FontAwesome5_Solid.ttf */,
+				F8A9BD52D5CA4D20AC6A4E18 /* Fontisto.ttf */,
+				1CC4EB207993491F95F10652 /* Foundation.ttf */,
+				F5F65BC86A474454BCB3E78D /* IBMPlexSans-Light.ttf */,
+				A0AA2D749C3B4BD197392025 /* IBMPlexSans-Medium.ttf */,
+				32F96E56A8994E7AA4530535 /* IBMPlexSans-Regular.ttf */,
+				615D40CD910044389AD85D2D /* IBMPlexSans-SemiBold.ttf */,
+				CE045CDC3A9F4AE2BF7BF868 /* Ionicons.ttf */,
+				4BFEED45F0314164905FD9C2 /* Lato-Bold.ttf */,
+				D87C3E04E87E41BC8B66ABD1 /* Lato-Light.ttf */,
+				F9EE851B41624F0DA8BF53A8 /* Lato-Regular.ttf */,
+				B878C25A188243DFAF300FD0 /* MaterialCommunityIcons.ttf */,
+				DDC6CE9780F440748335502D /* MaterialIcons.ttf */,
+				22EB4D59ECFA4F01A74396A9 /* Mitr-Bold.ttf */,
+				CDBCD18744C54EE1A4070AF8 /* Mitr-Light.ttf */,
+				50D1AF0E62574A1995FBE1C9 /* Mitr-Medium.ttf */,
+				1CB1F8B3041D43809F83716A /* Mitr-Regular.ttf */,
+				9FEF696C4E1848DF86CF0CE5 /* Octicons.ttf */,
+				E124997A4C2A490291A32177 /* OpenSans-Bold.ttf */,
+				A0DA5B70D13E475BB3ADCF8B /* OpenSans-Light.ttf */,
+				E3BED1DD37AC4BBE849106F0 /* OpenSans-Regular.ttf */,
+				ADCD831E20724831BCEB8BCE /* Raleway-Medium.ttf */,
+				9C6F5C13A06143988EB0AD45 /* Raleway-Regular.ttf */,
+				BC8A5C56285E4AE89488E8D5 /* Roboto-Regular.ttf */,
+				55DDD5A975D84DEEB2E169A5 /* RobotoSlab-Bold.ttf */,
+				C0BC2E250C4A46349A64CFA2 /* RobotoSlab-Light.ttf */,
+				C53CF11E504742FBA40477CE /* RobotoSlab-Regular.ttf */,
+				341EC4E668D146D1B66A8CF8 /* Sansita-Bold.ttf */,
+				AD090A6CB7914757A51D87C0 /* Sansita-Regular.ttf */,
+				0D35C78B24B6402992B19F66 /* SimpleLineIcons.ttf */,
+				871C87FEE4E44DFE9E68E8C4 /* Sunflower-Bold.ttf */,
+				0B443698A6654B19A4214F8F /* Sunflower-Light.ttf */,
+				C3F274B26B844E31B0468BC6 /* Sunflower-Medium.ttf */,
+				A915DD12788B46259993514A /* Zocial.ttf */,
+				B9BA60ABE8BF428DA0F55F1A /* Raleway-Black.ttf */,
+				DBBD1292A9704118B488879C /* Raleway-Bold.ttf */,
+				E62729E1622749BBADAB8BDA /* Roboto-Black.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* FoodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FoodApp" */;
+			buildPhases = (
+				F8BC737F2AD7A05944D9E2A1 /* [CP] Check Pods Manifest.lock */,
+				FD4C38642228810C00325AF5 /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				765524470AD11BA6CA763791 /* [CP] Copy Pods Resources */,
+				53344046DFD795DC39F6A2EA /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodApp;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* FoodApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 22US2M76T7;
+						LastSwiftMigration = 1130;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FoodApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* FoodApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731D3B824204D62009CAE85 /* Expo.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				99EC63CFB4B549BBAF093D10 /* SplashScreen.storyboard in Resources */,
+				A1E64509F57549CCBDC5F2F1 /* AntDesign.ttf in Resources */,
+				DFB6E9D91B87463297D516E7 /* Entypo.ttf in Resources */,
+				ED1B12A3C6E24C9C94458D7B /* EvilIcons.ttf in Resources */,
+				7F8B138C442D4665B63EEDAE /* Feather.ttf in Resources */,
+				26AD3EFA49A043C5BFAFA902 /* FontAwesome.ttf in Resources */,
+				56413FF965BC4F49A8847695 /* FontAwesome5_Brands.ttf in Resources */,
+				CA897DC451424703865360A8 /* FontAwesome5_Regular.ttf in Resources */,
+				4286B19A30A946348B96A35F /* FontAwesome5_Solid.ttf in Resources */,
+				BB4AA7B769244520BF61BE34 /* Fontisto.ttf in Resources */,
+				9AED594861A84364AEB2E4BA /* Foundation.ttf in Resources */,
+				3BA2FB2D48BE4D3E82BEDB74 /* IBMPlexSans-Light.ttf in Resources */,
+				94E0E6B912914078AB468147 /* IBMPlexSans-Medium.ttf in Resources */,
+				E66800215C63473E81F1F234 /* IBMPlexSans-Regular.ttf in Resources */,
+				8ACB930ED05C41BFBF3002DE /* IBMPlexSans-SemiBold.ttf in Resources */,
+				1FB54FC3E9BB4BA8A016338F /* Ionicons.ttf in Resources */,
+				57C9C0161FCE46A4AD529740 /* Lato-Bold.ttf in Resources */,
+				25BB275C1E524AD189F12D18 /* Lato-Light.ttf in Resources */,
+				EDEB6C478FDA44409B7EA598 /* Lato-Regular.ttf in Resources */,
+				E6CAF280DA5C4EF8BED7318B /* MaterialCommunityIcons.ttf in Resources */,
+				CC47A628C5AC4C819DEC0242 /* MaterialIcons.ttf in Resources */,
+				EE50B5CF81EC4606927D0A4B /* Mitr-Bold.ttf in Resources */,
+				B26E2B40391E4540A7312218 /* Mitr-Light.ttf in Resources */,
+				E590B4D86A4848E7BEE6E683 /* Mitr-Medium.ttf in Resources */,
+				048B282324E04913006D3C31 /* GoogleService-Info.plist in Resources */,
+				B62E1117C95146C1B5FBD3C4 /* Mitr-Regular.ttf in Resources */,
+				215CD1F9528343BF9889A700 /* Octicons.ttf in Resources */,
+				902D903E18FC4BE0BC301162 /* OpenSans-Bold.ttf in Resources */,
+				98664377AAD24D4DAA4A845A /* OpenSans-Light.ttf in Resources */,
+				C65DED633EC747178AC63B65 /* OpenSans-Regular.ttf in Resources */,
+				2E882E2EBEC04952949FF7E2 /* Raleway-Medium.ttf in Resources */,
+				22AEB33068224953A640A16C /* Raleway-Regular.ttf in Resources */,
+				E775932A15264819953E20B2 /* Roboto-Regular.ttf in Resources */,
+				80887FBB1DF44F6882B9385A /* RobotoSlab-Bold.ttf in Resources */,
+				17E7AC91833A4F1A94514479 /* RobotoSlab-Light.ttf in Resources */,
+				7C338C2E435E4E338F78A572 /* RobotoSlab-Regular.ttf in Resources */,
+				9D3584294D2049BD9BDF5049 /* Sansita-Bold.ttf in Resources */,
+				4EBF882840C14A9A8A750874 /* Sansita-Regular.ttf in Resources */,
+				C3E8EF4FAE4648258C18D710 /* SimpleLineIcons.ttf in Resources */,
+				F83F596FFF9241D39A41458B /* Sunflower-Bold.ttf in Resources */,
+				01C5797079664E59864FD66E /* Sunflower-Light.ttf in Resources */,
+				9714D4A77176490AA399946F /* Sunflower-Medium.ttf in Resources */,
+				7E0C9B55857E49F79AA1A88F /* Zocial.ttf in Resources */,
+				5B2F2960A30E4329A9E85181 /* Raleway-Black.ttf in Resources */,
+				EE6DCF4353D14670AA1006D4 /* Raleway-Bold.ttf in Resources */,
+				117AEF6667F348F1B884B4D2 /* Roboto-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n../node_modules/expo-updates/scripts/create-manifest-ios.sh";
+		};
+		53344046DFD795DC39F6A2EA /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes usful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally \n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n\n";
+		};
+		765524470AD11BA6CA763791 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodApp/Pods-FoodApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodApp/Pods-FoodApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BC737F2AD7A05944D9E2A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4C38642228810C00325AF5 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				04636572249F90FE00AB4E77 /* File.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = FoodApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B47C5AFCB8BDE514B7D1AC6 /* Pods-FoodApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodApp/FoodApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 22US2M76T7;
+				INFOPLIST_FILE = FoodApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foodway;
+				PRODUCT_NAME = FoodApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC623DBF3A3E2CB072F81F2 /* Pods-FoodApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FoodApp/FoodApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22US2M76T7;
+				INFOPLIST_FILE = FoodApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foodway;
+				PRODUCT_NAME = FoodApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
